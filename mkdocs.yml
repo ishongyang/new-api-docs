@@ -89,33 +89,32 @@ extra:
   generator: false
 
 nav:
-  - 接口文档:
-    - 🏠 接口文档: api/index.md
-    - 中继接口:
+  - 🏠 接口文档: api/index.md
+  - 中继接口:
       - 💬 聊天（Chat）:
-        - OpenAI 格式（Chat Completions）: api/openai-chat.md
-        - OpenAI 格式（Responses）: api/openai-responses.md
-        - Anthropic 格式（Messages）: api/anthropic-chat.md
-        - Deepseek reasoning 格式（Reasoning Content）: api/deepseek-reasoning-chat.md
-        - 🆕 Google Gemini 格式（Generate Content）: api/google-gemini-chat.md
+          - OpenAI 格式（Chat Completions）: api/openai-chat.md
+          - OpenAI 格式（Responses）: api/openai-responses.md
+          - Anthropic 格式（Messages）: api/anthropic-chat.md
+          - Deepseek reasoning 格式（Reasoning Content）: api/deepseek-reasoning-chat.md
+          - 🆕 Google Gemini 格式（Generate Content）: api/google-gemini-chat.md
       - 🔤 嵌入（Embeddings）:
-        - OpenAI 格式: api/openai-embedding.md
+          - OpenAI 格式: api/openai-embedding.md
       - 🔄 重排序（Rerank）:
-        - Jina AI 格式: api/jinaai-rerank.md
-        - Cohere 格式: api/cohere-rerank.md
-        - Xinference 格式: api/xinference-rerank.md
+          - Jina AI 格式: api/jinaai-rerank.md
+          - Cohere 格式: api/cohere-rerank.md
+          - Xinference 格式: api/xinference-rerank.md
       - ⚡ 实时对话（Realtime）:
-        - OpenAI 格式: api/openai-realtime.md
+          - OpenAI 格式: api/openai-realtime.md
       - 🖼️ 图像（Image）:
-        - OpenAI 格式（Image）: api/openai-image.md
-        - Midjourney 格式（Midjourney Proxy/Midjourney Proxy Plus）: api/midjourney-proxy-image.md
+          - OpenAI 格式（Image）: api/openai-image.md
+          - Midjourney 格式（Midjourney Proxy/Midjourney Proxy Plus）: api/midjourney-proxy-image.md
       - 🔊 音频（Audio）:
-        - OpenAI 格式: api/openai-audio.md
+          - OpenAI 格式: api/openai-audio.md
       - 🎵 音乐（Music）:
-        - Suno API 格式: api/suno-music.md
+          - Suno API 格式: api/suno-music.md
       - 🎥 视频（Video）:
-        - 可灵AI (Kling)和即梦 (Jimeng)格式: api/kling-jimeng.md
-        - OpenAI 视频格式（Sora格式）: api/openai-video.md
+          - 可灵AI (Kling)和即梦 (Jimeng)格式: api/kling-jimeng.md
+          - OpenAI 视频格式（Sora格式）: api/openai-video.md
 plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
